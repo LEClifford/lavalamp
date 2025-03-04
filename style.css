@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000911;
+}
+.spacer {
+    width:100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.blob-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#visual {
+    width: 100vw;
+    height: auto;
+    max-width: 1200px;
+    display: block;
+}
+
+.top {
+    height: 5%;
+    width: 100vw;
+    display: block;
+}
+
+.bottom {
+    height: 5%;
+    width: 100vw;
+    display: block;
+}
